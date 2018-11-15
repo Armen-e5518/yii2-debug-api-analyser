@@ -1,0 +1,22 @@
+{
+    "name": "1-git/yii2-debug-api-analyser",
+    "version": "1.0.0",
+    "type": "project",
+    "description": "Extension for yii2. Return json with db request analyse from yii2 debug.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "one-git@yandex.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "oneGit\\yii2DebugApisAlyser\\": ""
+        }
+    },
+    "require-dev": {
+        "yiisoft/yii-debug": "2"
+    },
+    "require": {}
+}
